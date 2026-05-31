@@ -44,7 +44,7 @@ Currently, this pipeline utilizes local file storage to mock database state and 
 1. **Cloud Storage Integration:** Migrating local staging files to **AWS S3** buckets.
 2. **Database Migration:** Replacing CSV manipulation with direct SQL `UPSERT` commands via Airflow `PostgresHook` or `SnowflakeHook`.
 3. **Metadata Passing:** Implementing Airflow **XComs** to securely pass state and file URIs between worker nodes instead of relying on local disk memory.
-4.![Future Scaled Architecture Diagram](docs/future_architecture.png)
+4. ![Future Scaled Architecture Diagram](docs/future_architecture.png)
 
 ---
 
